@@ -1,0 +1,47 @@
+header {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  padding: 10px 5px;
+  word-spacing: 20px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.content {
+  height: auto;
+  text-align: justify;
+  column-fill: balance;
+  column-width: 300px;
+  column-count: 4;
+  column-gap: 11px;
+  column-rule: 2px solid black;
+}
+
+.newspaper, .newspaper1, .newspaper2 {
+  column-span: all;
+}
+
+p, h1, h2 {
+  margin-top: 0px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 2.5em;
+}
